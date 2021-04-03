@@ -1,0 +1,176 @@
+.body{
+    background-color: rgb(49, 47, 47);
+    width: auto;
+    height:auto;
+    margin: 0px;
+    padding: 0px;
+}
+.sidebar{
+    height: 100%;
+    width: 50px;
+    margin-left: 5px;
+    background-color: rgb(66, 63, 62);
+}
+.menuicon{
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    position: relative;
+    background-color: rgb(52, 163, 52);
+    border:none;
+    margin-top: 5px;
+}
+.menuicon>i{
+    font-size:xx-large;
+}
+.othericon{
+    height: 100%;
+    width: 50px;
+    margin-left: 5px;
+}
+.personicon>i, .telephoneicon>i, .envelopeicon>i ,.clouddownload>i, .servicediv1>i, .servicediv2>i{
+    font-size:xx-large;
+    color: white;
+}
+.personicon, .telephoneicon, .envelopeicon, .clouddownload{
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    position: relative;
+    background-color: rgba(52, 163, 52, 0);
+    border: none;
+}
+.personicon{
+    margin-top: 200px;
+}
+.clouddownload{
+    margin-top: 180px;
+}
+.imgdiv{
+    position: absolute;
+    top: 0px;
+    margin-left: 60px;
+    width:40%;
+    height: 680px;
+}
+.img{
+    width:80%;
+    height: 100%;
+}
+.aboutdiv{
+    width: 59%;
+    position: absolute;
+    top: 10px;
+    left: 500px;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 35px;
+    border-bottom-style:solid;
+    border-bottom-color: green;
+}
+.aboutdiv>h1{
+    margin: 0%;
+    padding: 0%;
+    font-size: 48pt;
+    width: 100%;
+    color: white;
+    font-family: fantasy;
+    font-weight: 300;
+}
+.aboutdiv>p{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: auto;
+    font-weight: 700;
+    font-size: 15pt;
+    color: rgb(13, 148, 13);
+}
+.aboutdiv>.para{
+    color: honeydew;
+    margin-top: 20px;
+    text-align: justify;
+}
+.introdiv{
+    position: absolute;
+    width: 30%;
+    height: auto;
+    text-align: center;
+    bottom: 50px;
+    left: 70px;
+}
+.introdiv>h1{
+    margin: 0%;
+    padding: 0%;
+    width: auto;
+    font-size: 40pt;
+    color: rgb(8, 8, 8);
+    background-color: rgba(245, 245, 245, 0.513);
+}
+.introdiv>p{
+    margin: 0%;
+    padding: 0%;
+    width: auto;
+    font-size: 15pt;
+    color: rgb(252, 253, 252);
+    font-weight: bolder;
+    background-color: rgba(33, 226, 7, 0.37);
+}
+.myservices{
+    width: 59%;
+    position: absolute;
+    top: 370px;
+    left: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 0%;
+}
+.myservices>h1{
+    margin: 0%;
+    padding: 0%;
+    font-size: 30pt;
+    width: 100%;
+    color: white;
+    font-family: fantasy;
+    font-weight: 300;
+}
+.servicediv1{
+    width:50%;
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+}
+.servicediv1>h1{
+    margin: 0%;
+    padding: 0%;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    color: white;
+}
+.servicediv1>p{
+    text-align: justify;
+    color: white;
+    padding: 0%;
+    margin: 0%;
+}
+.servicediv2{
+    width:43%;
+    position: absolute;
+    right: 5px;
+    top: 60px;
+    margin: 0%;
+    padding: 0%;
+}
+.servicediv2>h1{
+    margin: 0%;
+    padding: 0%;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    color: white;
+}
+.servicediv2>p{
+    text-align: justify;
+    color: white;
+    padding: 0%;
+    margin: 0%;
+}
